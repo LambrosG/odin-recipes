@@ -1,0 +1,51 @@
+body{
+    background-color: #f9f5da;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#list-of-recipes{
+    list-style: none;
+    font-size: larger;
+    text-align: center;
+    line-height: 30px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+a:hover {
+    color: rgb(235, 11, 11);
+    font-size: larger;
+  }
+
+.recipe-title{
+    text-align: center;
+    text-decoration: rgb(121, 51, 51) wavy underline;
+    line-height: 0px;
+}
+
+.recipe-description{
+    text-align: justify;
+}
+
+#cooks-note{
+    background-color: aliceblue;
+}
+
+
+.recipe-photo{
+    height: 200px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.times-and-servings{
+    color: rgb(138, 30, 210);
+    border: 3px solid darkred;
+    line-height: 2px;
+}
