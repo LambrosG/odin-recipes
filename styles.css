@@ -1,11 +1,13 @@
-body{
-    background-color: #f9f5da;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+*{
+    box-sizing: border-box;
 }
 
+body{
+    background-color: #f9f5da;
+    font-family: Verdana, Tahoma, sans-serif;
+}
 
 #list-of-recipes{
-    list-style: none;
     font-size: larger;
     text-align: center;
     line-height: 30px;
@@ -13,11 +15,13 @@ body{
 
 a:link {
     text-decoration: none;
+    color:rgb(24, 68, 211)
   }
 
-a:hover {
-    color: rgb(235, 11, 11);
-    font-size: larger;
+#list-of-recipes a:hover {
+    color:whitesmoke;
+    background-color: rgb(24, 68, 211);
+    border-left: darkorange solid 3px;
   }
 
 .recipe-title{
@@ -31,9 +35,22 @@ a:hover {
 }
 
 #cooks-note{
+    padding: 15px;
+    margin: 40px;
+    border-left: 4px solid #f3da39;
+    width: max-content;
     background-color: aliceblue;
+    text-align: justify;
 }
 
+.recipe-timing-card{
+    padding: 15px;
+    margin: 20px;
+    width: max-content;
+    color: rgb(24, 68, 211);
+    background-color:aliceblue;
+    border-left: 4px solid rgb(253, 0, 127);
+}
 
 .recipe-photo{
     height: 200px;
@@ -42,10 +59,4 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-}
-
-.times-and-servings{
-    color: rgb(138, 30, 210);
-    border: 3px solid darkred;
-    line-height: 2px;
 }
